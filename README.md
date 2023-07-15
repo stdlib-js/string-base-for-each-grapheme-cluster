@@ -92,7 +92,7 @@ function clbk() {
     this.count += 1;
 }
 
-var str = 'Hello, world!';
+var str = '👉🏿';
 
 var ctx = {
     'count': 0
@@ -100,8 +100,8 @@ var ctx = {
 
 forEachGraphemeCluster( str, clbk, ctx );
 
-var bool = ( str.length === ctx.count );
-// returns true
+var cnt = ctx.count;
+// returns 1
 ```
 
 </section>
