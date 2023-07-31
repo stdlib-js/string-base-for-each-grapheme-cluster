@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-for-each-grapheme-cluster",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Invoke a function for each grapheme cluster (i.e., user-perceived character) in a string.",
   "license": "Apache-2.0",
   "author": {
