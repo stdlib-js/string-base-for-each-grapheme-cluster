@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-for-each-grapheme-cluster",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Invoke a function for each grapheme cluster (i.e., user-perceived character) in a string.",
   "license": "Apache-2.0",
   "author": {
@@ -37,12 +37,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/string-next-grapheme-cluster-break": "^0.0.9"
+    "@stdlib/string-next-grapheme-cluster-break": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-string": "^0.0.8",
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/utils-noop": "^0.0.14",
+    "@stdlib/assert-is-string": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/utils-noop": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
