@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import forEachGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-for-each-grapheme-cluster@esm/index.mjs';
+import forEachGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-for-each-grapheme-cluster@v0.2.0-esm/index.mjs';
 ```
 
 #### forEachGraphemeCluster( str, clbk\[, thisArg ] )
@@ -125,7 +125,7 @@ var cnt = ctx.count;
 <body>
 <script type="module">
 
-import forEachGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-for-each-grapheme-cluster@esm/index.mjs';
+import forEachGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-for-each-grapheme-cluster@v0.2.0-esm/index.mjs';
 
 function log( value, index ) {
     console.log( '%d: %s', index, value );
