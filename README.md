@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import forEachGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-for-each-grapheme-cluster@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-for-each-grapheme-cluster/tags). For example,
+
+```javascript
 import forEachGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-for-each-grapheme-cluster@v0.2.0-deno/mod.js';
 ```
 
@@ -120,7 +125,7 @@ var cnt = ctx.count;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import forEachGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-for-each-grapheme-cluster@v0.2.0-deno/mod.js';
+import forEachGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-for-each-grapheme-cluster@deno/mod.js';
 
 function log( value, index ) {
     console.log( '%d: %s', index, value );
